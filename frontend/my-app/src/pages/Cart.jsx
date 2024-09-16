@@ -14,7 +14,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="container px-4 py-8 mx-auto">
+    <div className="container px-4 py-8 mx-auto mt-20">
       <h1 className="mb-6 text-3xl font-bold text-center">Shopping Cart</h1>
       
       {cartItems.length === 0 ? (
